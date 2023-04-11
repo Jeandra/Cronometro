@@ -35,7 +35,6 @@ body {
 }
 
 button {
-    text-transform: uppercase;
     padding: 10px;
     border: none;
     color: #fefefe;
@@ -44,7 +43,8 @@ button {
     border-radius: 5px;
     width: 65px;
     margin: 10px;
-    font-size: 12px;
+    font-size: 14px;
+   
 }
 
 .container button:nth-child(1) {
