@@ -37,7 +37,6 @@ body {
 button {
     text-transform: uppercase;
     padding: 10px;
-    background-color: #8119ff;
     border: none;
     color: #fefefe;
     cursor: pointer;
@@ -46,4 +45,16 @@ button {
     width: 65px;
     margin: 10px;
     font-size: 12px;
+}
+
+.container button:nth-child(1) {
+    background-color: #ffc815;
+}
+
+.container button:nth-child(2) {
+    background-color: #1bbd32;
+}
+
+.container button:nth-child(3) {
+    background-color: #ff0000;
 }
