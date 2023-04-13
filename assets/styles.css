@@ -11,7 +11,7 @@ body {
 
 .container {
     min-width: 400px;
-    min-height: 100vh;
+    height: 100vh;
     color: #fefefe;
     border-radius: 5px;
     align-items: center;
@@ -37,7 +37,7 @@ body {
 button {
     padding: 10px 20px;
     border: none;
-    color: #7026ed;
+    color: #8335fd;
     cursor: pointer;
     flex: 1;
     border-radius: 5px;
@@ -46,13 +46,13 @@ button {
     font-size: 18px;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
-    border: 2px solid #7026ed;
+    border: 2px solid #8335fd;
    
 }
 
 
 button:hover {
-    background-color: #7026ed;
+    background-color: #8335fd;
     color: #fefefe;
     
 }
