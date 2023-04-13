@@ -35,18 +35,30 @@ body {
 }
 
 button {
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
-    color: #fff;
+    color: #7026ed;
     cursor: pointer;
     flex: 1;
     border-radius: 5px;
-    width: 70px;
+    width: 100px;
     margin: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #7026ed;
    
 }
 
+
+button:hover {
+    background-color: #7026ed;
+    color: #fefefe;
+    
+}
+
+
+/*
 .container button:nth-child(1) {
     background-color: #ffc815;
 }
@@ -58,3 +70,4 @@ button {
 .container button:nth-child(3) {
     background-color: #ff0000;
 }
+*/
