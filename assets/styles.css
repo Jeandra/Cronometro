@@ -12,7 +12,7 @@ body {
 .container {
     min-width: 400px;
     height: 100vh;
-    color: #fefefe;
+    color: #ffffff;
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -37,25 +37,22 @@ body {
 button {
     padding: 10px 20px;
     border: none;
-    color: #8335fd;
     cursor: pointer;
     flex: 1;
     border-radius: 5px;
     width: 100px;
     margin: 10px;
     font-size: 18px;
-    background-color: transparent;
     transition: all 0.3s ease-in-out;
-    border: 2px solid #8335fd;
-   
-}
-
-
-button:hover {
     background-color: #8335fd;
     color: #fefefe;
-    
 }
+
+button:hover {
+    border: 2px solid #8335fd;
+    background-color: transparent;
+    color: #fefefe;
+ }
 
 
 /*
